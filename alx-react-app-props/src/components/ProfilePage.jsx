@@ -6,7 +6,7 @@ function ProfilePage({ userData }) {
 }
 
 function App() {
-  const [ProfilePage, UserContext] = useState(userData)
+  const [ProfilePage, UserContext, React] = useState(userData)
 
     return 
     <div className="App">
