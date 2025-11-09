@@ -1,19 +1,8 @@
 import { useContext } from 'react';
 import UserInfo from './components/UserInfo';
 
-function ProfilePage({ userData }) {
-  return <UserInfo userData={userData} />;
+function ProfilePage({ useContext }) {
+  return <UserInfo userData={userContext} />;
 }
-
-function App() {
-  const [ProfilePage, UserContext, React] = useState(userData)
-
-    return 
-    <div className="App">
-      <UserContext.Provider value={userData}>
-    <UserInfo userData={useContext} />;
-    </UserContext.Provider>
-    </div>
-  }
 
 export default ProfilePage;
