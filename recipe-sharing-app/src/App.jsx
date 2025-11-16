@@ -1,26 +1,57 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import RecipeList from './components/RecipeList'
+import AddRecipeForm from './components/AddRecipeForm'
+import RecipeDetails from './components/RecipeDetails'
+import EditRecipeForm from './components/EditRecipeForm'
+import FavoritesList from './components/FavoritesList';
+import RecommendationsList from './components/RecommendationsList';
+import SearchBar from './components/SearchBar';
 
-import './App.css'
-import store from './store.jsx'
-import Recipelist from '.RecipeList.jsx'
-import { useCounterStore } from './store.jsx'
-import AddRecipeform from '.AddRecipeForm.jsx'
+function App() {
+  return (
+    <div>
+      <h1>Recipe Sharing App</h1>
 
+      <SearchBar />
+      <AddRecipeForm />
 
+      <h2>All Recipes</h2>
+      <RecipeList />
 
-
-const App = () => {
-  
-  const count = useCounterStore((state) => state.count);
-
-  return <Othercomponent count={count} />;
+      <FavoritesList />
+      <RecommendationsList />
+    </div>
+  );
 }
 
-  
-const increment = useCounterStore((state) => state.increment);
-const decrement = useCounterStore((state) => state.increment);
 
-  return <div>Count: {count}</div>;
+export default function App() {
+return (
+<BrowserRouter>
+<div style={{ maxWidth: 800, margin: '0 auto', padding: 20 }}>
+<header style={{ marginBottom: 20 }}>
+<h1>Recipe Sharing App</h1>
+<nav>
+<Link to="/">Home</Link>
+</nav>
+</header>
 
 
-export default App
+<main>
+<Routes>
+<Route path="/" element={(
+<div>
+<AddRecipeForm />
+<RecipeList />
+</div>
+)} />
+
+
+<Route path="/recipes/:id" element={<RecipeDetails />} />
+<Route path="/recipes/:id/edit" element={<EditRecipeForm />} />
+</Routes>
+</main>
+</div>
+</BrowserRouter>
+)
+}
