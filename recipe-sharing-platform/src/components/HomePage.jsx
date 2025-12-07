@@ -30,3 +30,5 @@ export default function HomePage() {
   );
 }
 ["hover", "rounded", "shadow"]
+
+["md"]
