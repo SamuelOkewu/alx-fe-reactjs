@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://www.budgetbytes.com/wp-content/uploads/2016/05/Spaghetti-Carbonara-Plated-500x500.jpg",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta or bacon",
+      "2 large eggs",
+      "1/2 cup grated Parmesan cheese",
+      "1/2 tsp black pepper",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Boil the spaghetti in salted water until al dente.",
+      "Cook the pancetta or bacon in a pan until crispy.",
+      "Whisk eggs and Parmesan together in a bowl.",
+      "Drain pasta and immediately mix with the egg and cheese mixture.",
+      "Add the cooked pancetta and stir quickly.",
+      "Season with black pepper and serve hot."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken cooked in a smooth buttery & creamy tomato-based gravy.",
+    "image": "https://www.skinnytaste.com/wp-content/uploads/2011/06/Chicken-Tikka-Masala-15.jpg",
+    "ingredients": [
+      "500g chicken breast, cubed",
+      "1 cup yogurt",
+      "1 tbsp garam masala",
+      "1 tbsp ginger-garlic paste",
+      "1 cup tomato puree",
+      "1/2 cup heavy cream",
+      "1 tsp turmeric",
+      "1 tbsp butter",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Marinate chicken with yogurt, turmeric, and spices for at least 1 hour.",
+      "Grill or pan-fry the marinated chicken until lightly charred.",
+      "Melt butter in a pan, then add tomato puree and simmer.",
+      "Add cream and stir until the sauce thickens.",
+      "Add grilled chicken pieces to the sauce and simmer for 10 minutes.",
+      "Serve with rice or naan."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avocado Toast",
+    "summary": "Simple and healthy avocado smashed on toasted sourdough, topped with seeds.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXP0yIIc1Dg24XdZnsFYFZEJLqQMevWM08jQ&s",
+    "ingredients": [
+      "2 slices sourdough bread",
+      "1 ripe avocado",
+      "1 tbsp lemon juice",
+      "Salt and pepper to taste",
+      "1 tsp sesame or chia seeds"
+    ],
+    "instructions": [
+      "Toast the sourdough slices.",
+      "Scoop the avocado into a bowl and mash with lemon, salt, and pepper.",
+      "Spread the mashed avocado over the toasted bread.",
+      "Sprinkle seeds on top and serve immediately."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Beef Bourguignon",
+    "summary": "Slow-cooked beef in red wine with mushrooms and pearl onions.",
+    "image": "https://juliasalbum.com/wp-content/uploads/2025/09/Beef-Bourguignon-Recipe-2.jpg",
+    "ingredients": [
+      "700g beef chunks",
+      "2 cups red wine",
+      "1 cup beef broth",
+      "2 carrots, sliced",
+      "1 cup mushrooms",
+      "1 cup pearl onions",
+      "2 cloves garlic, minced",
+      "1 tbsp tomato paste",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Sear beef chunks in a hot pan until browned.",
+      "Add garlic, tomato paste, and vegetables; cook for 5 minutes.",
+      "Pour in red wine and beef broth.",
+      "Simmer on low heat for 2–3 hours until beef is tender.",
+      "Adjust seasoning and serve hot with mashed potatoes or bread."
+    ]
+  
+  
+  }
+]
